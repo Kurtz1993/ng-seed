@@ -1,6 +1,6 @@
 # Style Guide
 
-This styleguide aims to make an standard for the projects built within BofI, following some of the Angular Style Guide conventions with some adjustments.
+This styleguide aims to make an standard for the projects built with this project, following some of the Angular Style Guide conventions with some adjustments.
 
 # Style vocabulary
 
