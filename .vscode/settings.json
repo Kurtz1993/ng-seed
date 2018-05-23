@@ -1,0 +1,17 @@
+{
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "html.suggest.ionic": false,
+  "html.suggest.angular1": false,
+  "html.format.wrapLineLength": 110,
+  "html.format.wrapAttributes": "force",
+  "html.format.endWithNewline": true,
+  "html.format.maxPreserveNewLines": null,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 110,
+  "prettier.arrowParens": "avoid",
+  "prettier.disableLanguages": ["html"],
+  "prettier.semi": true
+}
