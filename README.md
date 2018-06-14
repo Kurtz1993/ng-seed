@@ -1,3 +1,6 @@
+# ng-seed
+An opinionated base architechture for Angular projects.
+
 ## Recommended editor and extensions
 
 For better experience developing Angular applications, use [Visual Studio Code](https://code.visualstudio.com) and install the following extensions:
