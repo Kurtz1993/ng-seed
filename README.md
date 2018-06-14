@@ -17,10 +17,10 @@ For better experience developing Angular applications, use [Visual Studio Code](
 
 * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer): This extension allows matching brackets to be identified with colours. The user can define which characters to match, and which colours to use.
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag): Automatically rename paired HTML/XML tag, same as Visual Studio IDE does.
-* [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer): Adds syntax colorization for both the output/debug/extensions panel and \*.log files.
+* [Log File Highlighter](https://marketplace.visualstudio.com/items?itemName=emilast.LogFileHighlighter): Adds color highlighting to log files to make it easier to follow the flow of log events and identify problems.
 
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Visual Studio Code plugin that autocompletes filenames.
-* [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight): Highlight TODO,FIXME or any annotations within your code.
+* [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments): Improve your code commenting by annotating with alert, informational, TODOs, and more!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3 and complies with the Style Guide found in this project.
 
