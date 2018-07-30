@@ -3,4 +3,3 @@
 // import { ApiResponse } from 'app/shared/models';
 export * from './api-response.model';
 export * from './http-query-params';
-export * from './log-record.model';
