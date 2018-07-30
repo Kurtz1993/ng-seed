@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --aot",
-    "build": "ng build --prod --vendor-chunk",
-    "build:stg": "ng build --prod --vendor-chunk --source-map --vendor-source-map",
+    "build": "ng build --prod --build-optimizer",
+    "build:stg": "ng build --prod --build-optimizer --source-map --vendor-source-map",
     "test": "ng test --code-coverage --watch=false",
     "test:watch": "ng test --code-coverage",
     "lint": "ng lint",
