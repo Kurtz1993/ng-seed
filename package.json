@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve --aot",
     "build": "ng build --prod --vendor-chunk",
-    "build:dev": "ng build --aot",
+    "build:stg": "ng build --prod --vendor-chunk --source-map --vendor-source-map",
     "test": "ng test --code-coverage --watch=false",
     "test:watch": "ng test --code-coverage",
     "lint": "ng lint",
