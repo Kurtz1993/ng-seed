@@ -1,7 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/catch';
+import { Observable } from 'rxjs';
 
 import { JSendReply, ApiResponse, HttpQueryParams } from '@app/shared/models';
 
@@ -78,6 +76,8 @@ export abstract class BaseService {
    * @returns An observable in the format of ApiResponse<T>.
    */
   protected delete<T>(endpoint: string = '', params?: HttpQueryParams): ApiResponse<T> {
-    return this.http.delete<JSendReply<T>>(`${this.url}/${endpoint}`, { params });
+    return this.http.delete<JSendReply<T>>(`${this.url}/${endpoint}`, {
+      params,
+    });
   }
 }

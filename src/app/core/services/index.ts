@@ -2,4 +2,3 @@
 // Then they can be imported on other files like this. E.g.
 // import { BaseService } from 'app/core/services';
 export * from './base.service';
-export * from './log.service';

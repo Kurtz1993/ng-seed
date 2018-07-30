@@ -1,5 +1,4 @@
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/of';
+import { Observable, of } from 'rxjs';
 
 import { JSendReply } from '@app/shared/models';
 
@@ -16,9 +15,9 @@ export function createObservableResponse<T>(
   status: 'success' | 'fail' | 'error' = 'success',
   message: string = null
 ): Observable<JSendReply<T>> {
-  return Observable.of({
+  return of({
     data,
     status,
-    message
+    message,
   }) as Observable<JSendReply<T>>;
 }

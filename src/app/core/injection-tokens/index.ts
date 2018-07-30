@@ -4,4 +4,3 @@
 import { InjectionToken } from '@angular/core';
 
 export const ApiUrl = new InjectionToken<string>('ApiUrl');
-export const LogUrl = new InjectionToken<string>('LogUrl');
