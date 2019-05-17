@@ -35,7 +35,7 @@ export class Example {}
 > another.component.ts
 
 ```typescript
-import { HelloWorldComponent, OtherComponent } from 'app/components';
+import { HelloWorldComponent, OtherComponent } from '@app/components';
 ```
 
 > Application folder structure
@@ -433,8 +433,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 
-import { BaseService } from 'app/core/services';
-import { User, ApiResponse, AuthenticationResponse } from 'app/core/models';
+import { BaseService } from '@app/core/services';
+import { User, ApiResponse, AuthenticationResponse } from '@app/core/models';
 
 @Injectable()
 export class AuthenticationService extends BaseService {
@@ -459,8 +459,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 
-import { BaseService } from 'app/core/services';
-import { User, ApiResponse, AuthenticationResponse } from 'app/core/models';
+import { BaseService } from '@app/core/services';
+import { User, ApiResponse, AuthenticationResponse } from '@app/core/models';
 
 @Injectable()
 export class AuthenticationService extends BaseService {
@@ -495,7 +495,7 @@ export class AuthenticationService extends BaseService {
 ```typescript
 import { Component } from '@angular/core';
 
-import { Account } from 'app/core/models';
+import { Account } from '@app/core/models';
 
 @Component({...})
 export class AccountComponent {
